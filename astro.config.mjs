@@ -18,7 +18,6 @@ export default defineConfig({
   integrations: [react(), tailwind(), icon()],
   output: 'server',
   adapter: vercel(),
-  outDir:'./dist'
 });
 // vps
 // export default defineConfig({
